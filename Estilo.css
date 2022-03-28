@@ -121,6 +121,10 @@ a:hover{text-decoration: underline;}
     transition: background-color 0.3s ease-in-out 0s, color 0.3s ease-in-out 0s, fill 0.3s ease-in-out 0s, border-bottom-color 0.3s ease-in-out 0s, border-bottom 0.3s ease-in-out 0s, border-color 0.3s ease-in-out 0s, height 0.3s ease-in-out 0s, top 0.3s ease-in-out 0s;
 }
 
+#menu a {
+    text-decoration: none;
+    font-weight: bold;
+}
 
 #menu ul {
     display: flex;
@@ -428,8 +432,8 @@ a:hover{text-decoration: underline;}
     font-weight: bold;
 }
 
-/* Estilos general slider */
 
+/* Estilos general slider */
 .slider_contenedor {
     box-sizing: border-box;
     margin-top: 30px;
@@ -465,7 +469,7 @@ a:hover{text-decoration: underline;}
 /*Caja general*/
 #ultimasNoticias {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
     grid-template-rows: repeat(2, auto);
     grid-gap: 40px;
     height: auto;
@@ -474,7 +478,6 @@ a:hover{text-decoration: underline;}
     margin-top: 30px;
     margin-bottom: 50px;
     font-family: 'Questrial', sans-serif;
-
 }
 
 /*Título*/
@@ -487,7 +490,10 @@ a:hover{text-decoration: underline;}
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(13, auto);
-    grid-gap: 40px;
+    grid-gap: 30px;
+    width: 100%;
+    justify-self: center;
+    padding: 20px;
 }
 
 .imagen_ultimasNoticias {
@@ -510,6 +516,7 @@ a:hover{text-decoration: underline;}
     text-align: center;
     width: 344px;
     height: auto;
+    justify-self: start;
 }
 
 /*Noticia 2 (fila 1 - columna 2)*/
@@ -519,6 +526,7 @@ a:hover{text-decoration: underline;}
     text-align: center;
     width: 344px;
     height: auto;
+    justify-self: start;
 }
 
 /*Noticia 3 (fila 1 - columna 3)*/
