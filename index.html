@@ -1215,5 +1215,27 @@
 
     </div>
 
+    <script>
+
+        let header = document.getElementById('header');
+        let menu = document.getElementById('menu');
+
+        window.addEventListener('scroll',function () {
+            let scrollEjeY = this.window.scrollY;
+            //Si al hacer scroll en ele eje Y llegamos a los 1000px 
+            //de alto aparecemos parte del navbar
+            if (scrollEjeY > 1000) {
+                //Añadimos estilos para quitar parte del menú
+                header.classList.add('ocultar_header_scroll');
+                menu.classList.add('ocultar_menu_scroll');
+            } else {
+                //Quitamos estilos para aparecer parte del menú 
+                header.classList.remove('ocultar_header_scroll');
+                menu.classList.remove('ocultar_menu_scroll');
+            }
+        })
+
+    </script>
+
 </body>
 </html>
