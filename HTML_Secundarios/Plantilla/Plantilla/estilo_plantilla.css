@@ -1,0 +1,581 @@
+* {
+    margin: 0;
+}
+
+/*Títulos*/
+#titulo {
+    text-align: center;
+    height: 25px;
+    font-family: 'Questrial', sans-serif;
+    font-size: small;
+    width: 100%;
+    padding: 10px;
+    border-top: 1px solid #707a7f23;
+    border-bottom: 1px solid #707a7f23;
+    padding: 15px 0px;
+}
+
+
+/*----------CABECERA----------*/
+.header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+/*Título y sign in*/
+.intro {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 8px;
+}
+
+.titulo {
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    grid-column: 2/3;
+}
+
+.titulo a {
+    text-decoration: none;
+    color: black;
+}
+
+.login {
+    grid-column: 3 / -1;
+    padding: 8px;
+    display: flex;
+    justify-content: end;
+}
+
+.login img {
+    margin: 0px 30px;
+}
+
+.login a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold 0.5;
+}
+
+/*----------MENU----------*/
+#menu {
+    clear: both;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    height: 50px;
+    border-top: #707a7f23 solid 1px;
+    border-bottom: #707a7f23 solid 1px;
+    font-family: 'Questrial', sans-serif;
+    font-weight: bolder;
+    font-size: medium;
+    padding: 5px 0px;
+    transition: background-color 0.3s ease-in-out 0s, color 0.3s ease-in-out 0s, fill 0.3s ease-in-out 0s, border-bottom-color 0.3s ease-in-out 0s, border-bottom 0.3s ease-in-out 0s, border-color 0.3s ease-in-out 0s, height 0.3s ease-in-out 0s, top 0.3s ease-in-out 0s;
+}
+
+#menu a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#menu ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0px;
+}
+
+/*Columnas*/
+#menu li {
+    padding: 0px;
+    line-height: 40px;
+    list-style: none;
+    margin: 0px 10px;
+}
+
+/*CuerpoPlantilla*/
+.plantilla {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+/*TituloPlantila*/
+.tituloPlantilla {
+    font-family: 'Questrial', sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    letter-spacing: -0.23px;
+    line-height: 48px;
+    text-decoration: none solid black;
+    text-align: left;
+    word-spacing: 0px;
+    color: black;
+    height: 96px;
+    width: 1012.16px;
+    margin-top: 16px;
+    display: block;
+}
+
+.plantilla .linea {
+    height: 0px;
+    width: 150px;
+    border: 1px solid black;
+}
+
+.plantilla .texto {
+    font-family: Garamond, serif;
+    font-size: 20px;
+    line-height: 32px;
+    text-decoration: none solid black;
+    word-spacing: 0px;
+    color: black;
+    height: 310px;
+    width: 682px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.plantilla img {
+    margin-top: 850px;
+    margin-left: 50px;
+}
+
+.plantilla #imagen2KikoMilano {
+    margin-top: 170px;
+    margin-left: 50px;
+}
+
+.plantilla #foto1Tiktok {
+    margin-top: 60px;
+}
+
+.plantilla #linea1Tiktok {
+    margin-top: 95px;
+}
+
+.plantilla #texto1Tiktok {
+    margin-bottom: 1000px;
+}
+
+.plantilla #texto2Tiktok {
+    margin-bottom: 250px;
+}
+
+.plantilla #linea1PremiosGoya {
+    margin-top: 50px;
+}
+
+.plantilla #imagen1PremiosGoya {
+    margin-top: 60px;
+}
+
+.plantilla #imagen2PremiosGoya {
+    margin-top: 130px;
+}
+
+.plantilla #imagen3PremiosGoya {
+    margin-top: 300px;
+}
+
+.plantilla #imagen4PremiosGoya {
+    margin-top: 0px;
+}
+
+.plantilla #imagen5PremiosGoya {
+    margin-top: 0px;
+}
+
+.plantilla #imagen6PremiosGoya {
+    margin-top: 80px;
+}
+
+.plantilla #imagen7PremiosGoya {
+    margin-top: 40px;
+}
+
+.plantilla #imagen1No1 {
+    margin-top: 50px;
+}
+
+.plantilla #imagen2No1 {
+    margin-top: 0px;
+}
+
+.plantilla #imagen3No1 {
+    margin-top: 0px;
+}
+
+.plantilla #imagen4No1 {
+    margin-top: 300px;
+}
+
+.plantilla #imagen5No1 {
+    margin-top: 0px;
+}
+
+.plantilla #imagen6No1 {
+    margin-top: 0px;
+    margin-bottom: -350px;
+}
+
+.plantilla #imagen1Maestro {
+    margin-top: 40px;
+}
+
+.plantilla #texto1Maestro {
+    margin-bottom: 1200px;
+}
+
+.plantilla #texto1MejorLimpiador {
+    margin-top: 50px;
+}
+
+.plantilla #imagen1MejorLimpiador {
+    margin-top: 50px;
+}
+
+.plantilla #imagen2MejorLimpiador {
+    margin-top: 750px;
+}
+
+.plantilla #imagen3MejorLimpiador {
+    margin-top: 450px;
+}
+
+.plantilla #linea1Secreto {
+    margin-top: 50px;
+}
+
+.plantilla #imagen1Secreto {
+    margin-top: 50px;
+}
+
+.plantilla #texto1Secreto {
+    margin-bottom: 1400px;
+}
+
+.plantilla #linea1Cosmeticos {
+    margin-top: 50px;
+}
+
+.plantilla #imagen1Cosmeticos {
+    margin-top: 50px;
+}
+
+.plantilla #linea1Catwoman {
+    margin-top: 50px;
+}
+
+.plantilla #imagen1Catwoman {
+    margin-top: 50px;
+}
+
+.plantilla #imagen2Catwoman {
+    margin-top: 100px;
+}
+
+.plantilla #imagen3Catwoman {
+    margin-top: 100px;
+}
+
+.plantilla #imagen4Catwoman {
+    margin-top: 0px;
+}
+
+.plantilla #imagen5Catwoman {
+    margin-top: 0px;
+}
+
+.plantilla #imagen6Catwoman {
+    margin-top: -70px;
+}
+
+.plantilla #linea1Emma {
+    margin-top: 50px;
+}
+
+.plantilla #imagen1Emma {
+    margin-top: 50px;
+}
+
+.plantilla #imagen2Emma {
+    margin-top: 50px;
+}
+
+.plantilla #imagen3Emma {
+    margin-top: -60px;
+}
+
+.plantilla #imagen4Emma {
+    margin-top: -60px;
+}
+
+.plantilla #imagen5Emma {
+    margin-top: -60px;
+}
+
+.plantilla #texto1Emma {
+    margin-bottom: -150px;
+}
+
+.plantilla #linea1Coats {
+    margin-top: 50px;
+}
+
+.plantilla #imagen1Coats {
+    margin-top: 200px;
+}
+
+.plantilla #imagen2Coats {
+    margin-top: -50px;
+}
+
+.plantilla #imagen3Coats {
+    margin-top: 0px;
+}
+
+.plantilla #texto1Coats {
+    margin-bottom: -150px;
+}
+
+.plantilla #linea1Rojo {
+    margin-top: 50px;
+}
+
+.plantilla #imagen1Rojo {
+    margin-top: 50px;
+}
+
+.plantilla #imagen2Rojo {
+    margin-top: 230px;
+}
+
+.plantilla #imagen3Rojo {
+    margin-top: 900px;
+}
+
+.plantilla #linea1Manicura {
+    margin-top: 50px;
+}
+
+.plantilla #imagen1Manicura {
+    margin-top: 50px;
+}
+
+.plantilla #imagen2Manicura {
+    margin-top: 520px;
+}
+
+.plantilla #imagen3Manicura {
+    margin-top: 50px;
+}
+
+.plantilla #texto1Manicura {
+    margin-top: -45px;
+}
+
+.plantilla #imagen4Manicura {
+    margin-top: 0px;
+}
+
+.plantilla #imagen5Manicura {
+    margin-top: -40px;
+}
+
+.plantilla #imagen6Manicura {
+    margin-top: 50px;
+}
+
+.plantilla #imagen7Manicura {
+    margin-top: -40px;
+}
+
+.plantilla #imagen8Manicura {
+    margin-top: -40px;
+}
+
+
+.plantilla .inicioSesion {
+    font-size: 20px;
+    line-height: 32px;
+    word-spacing: 0px;
+    height: 414px;
+    width: 595px;
+    padding: 64px 32px;
+}
+
+.plantilla .inicioSesion #titulo {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+    word-spacing: 0px;
+    height: 96px;
+    width: 530px;
+    margin-top: 16px;
+    padding-bottom: 16px;
+}
+
+.plantilla .inicioSesion #debajoTitulo {
+    font-size: 16px;
+    letter-spacing: -0.1px;
+    line-height: 22px;
+    text-align: center;
+    word-spacing: 0px;
+    height: 22px;
+    width: 530px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.plantilla .inicioSesion input[type=email] {
+    font-size: 12px;
+    line-height: 16px;
+    word-spacing: 0px;
+    height: 48px;
+    width: 370.5px;
+    margin-top: 8px;
+    padding: 8px 12px;
+}
+
+.plantilla .inicioSesion input[type=submit] {
+    font-size: 12px;
+    line-height: 16px;
+    word-spacing: 0px;
+    height: 70px;
+    width: 170px;
+    border: 1px solid #E0E0E0;
+    margin-top: 0px;
+    margin-left: -3px;
+    padding: 8px 12px;
+    background-color: black;
+    color: white;
+}
+
+.plantilla .inicioSesion #debajoInput {
+    font-size: 14px;
+    line-height: 16px;
+    word-spacing: 0px;
+    color: black;
+    height: 16px;
+    width: 570px;
+    margin: 12px 0px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 48px;
+    background-color: black;
+    border: 1px solid black;
+    z-index: -1;
+}
+
+.footer .redes #titulo {
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: left;
+    word-spacing: 0px;
+    color: #B0B0B0;
+    height: 32px;
+    width: 105px;
+    margin: 12px 0px;
+    border: 1px solid black;
+}
+
+.footer .redes #debajoTitulo {
+    border: 1px solid black;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: left;
+    word-spacing: 0px;
+    color: white;
+    height: 30px;
+    width: 434px;
+}
+
+.footer .redes #redesSociales {
+    line-height: 32px;
+    text-align: left;
+    height: 48px;
+    width: 626px;
+    margin-top: 30px;
+    list-style-type: none;
+    z-index: 1;
+    color: white;
+}
+
+.footer .redes #redesSociales li {
+    float: left;
+    margin-left: 15px;
+}
+
+.footer #texto1 {
+    font-family: 'Questrial', sans-serif;
+    font-size: 12px;
+    line-height: 32px;
+    text-align: left;
+    word-spacing: 0px;
+    color: black;
+    height: 165px;
+    width: 154px;
+    border: 1px solid black;
+    margin-left: 750px;
+    margin-top: -165px;
+    line-height: 27px;
+    color: white;
+}
+
+.footer #texto2 {
+    font-family: 'Questrial', sans-serif;
+    font-size: 12px;
+    line-height: 32px;
+    text-align: left;
+    word-spacing: 0px;
+    color: black;
+    height: 185px;
+    width: 154px;
+    border: 1px solid black;
+    margin-left: 950px;
+    margin-top: -165px;
+    line-height: 24px;
+    color: white;
+}
+
+.footer #linea {
+    border: 1px solid #636363;
+    height: 0px;
+    width: 1250px;
+    margin-top: 40px;
+}
+
+.footer #texto3 {
+    font-family: 'Questrial', sans-serif;
+    letter-spacing: 1px;
+    text-align: left;
+    height: 22px;
+    width: 682px;
+    color: white;
+    margin-top: 40px;
+}
+
+.footer #acuerdos {
+    font-size: 13.3px;
+    letter-spacing: -0.2px;
+    line-height: 16px;
+    text-align: left;
+    color: #636363;
+    height: 48px;
+    width: 1221px;
+    margin-top: 40px;
+}
